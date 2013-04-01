@@ -6,9 +6,23 @@
 	<link href="css/bootstrap.css" rel="stylesheet" media="all" />
 	<link href="css/style.css" rel="stylesheet" media="all" />
 	<link href="css/default+en.css" rel="stylesheet" media="all" />
+	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/holder.js"></script>
+	<style>
+	.carousel-control
+	{
+		height: 80px;
+		margin-top: 0;
+		font-size: 120px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-shadow: 0 1px 1px rgba(0,0,0,.4);
+		background-color: transparent;
+		border: 0;
+		z-index: 10;
+	}
+	</style>
 </head>
 <body>
 	<div class="page-header">
@@ -64,9 +78,9 @@
 					<li class="nav-header">Sites</li>
 					<li><a href="http://www.youtube.com/user/thomasagraves">Youtube</a></li>
 					<li><a href="http://www.instagram.com/thelivingking2">Instagram</a></li>
-					<li class="divider"></li>
 					<li><a href="http://twitter.com/thelivingking2">Twitter</a></li>
 					<li><a href="http://www.facebook.com/thelivingking2">Facebook</a></li>
+					<li class="divider"></li>
 					<li><a href="http://www.linkedin.com/pub/thomas-graves/43/949/456/">LinkedIn</a></li>
 				</ul>
 			</div>
@@ -145,5 +159,27 @@
 			<p><time pubdate datetime="02-18-2013"></time></p>
 		</footer>
 	</div>
+	<script src="js/jquery.js"></script>
+        <script src="js/bootstrap-transition.js"></script>
+        <script src="js/bootstrap-alert.js"></script>
+        <script src="js/bootstrap-modal.js"></script>
+        <script src="js/bootstrap-dropdown.js"></script>
+        <script src="js/bootstrap-scrollspy.js"></script>
+        <script src="js/bootstrap-tab.js"></script>
+        <script src="js/bootstrap-tooltip.js"></script>
+        <script src="js/bootstrap-popover.js"></script>
+        <script src="js/bootstrap-button.js"></script>
+        <script src="js/bootstrap-collapse.js"></script>
+        <script src="js/bootstrap-carousel.js"></script>
+        <script src="js/bootstrap-typeahead.js"></script>
+        <script>
+          !function ($) {
+            $(function(){
+              // carousel demo
+              $('#myCarousel').carousel()
+            })
+          }(window.jQuery)
+        </script>
+        <script src="js/holder/holder.js"></script>
 </body>
 </html>
